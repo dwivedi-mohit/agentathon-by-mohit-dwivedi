@@ -10,7 +10,7 @@ class Settings(BaseSettings):
 
     HOST: str = "0.0.0.0"
     PORT: int = 8000
-    CORS_ORIGINS: str = "http://localhost:5173,http://localhost:4173"
+    CORS_ORIGINS: str = "http://localhost:5173,http://localhost:4173,https://frontend-iota-nine-83.vercel.app,https://mirror-seven-sigma.vercel.app"
 
     GROQ_API_KEY: str = ""
     AGENTFIELD_API_KEY: str = ""
